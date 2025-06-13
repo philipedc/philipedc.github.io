@@ -1,0 +1,93 @@
+:root {
+  --background-color: oklch(23.2607% 0.013807 253.100675 / 1);
+  --text-color: oklch(0.746477 0.0216 264.436);
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: white;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.project {
+  padding: 1.5rem 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.project h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.project .date {
+  font-size: 1rem;
+  color: #aaa;
+  font-weight: normal;
+  margin-left: 1rem;
+}
+
+.role-location {
+  font-size: 1rem;
+  color: #bbb;
+  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.project ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style: disc;
+  font-size: 1.05rem;
+  color: var(--text-color);
+}
